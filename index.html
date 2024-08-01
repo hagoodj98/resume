@@ -4,105 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Jaiquez Hagood | Web Developer</h1>
-    
-    <img src="images/Mask group.png" width="350" height="350" alt="">
-    <h2>Objective</h2>
-    <p>Aspiring to leverage my expertise in front-end web development, my passion for creating user-centric digital experiences, and my strong problem-solving skills in a dynamic and innovative company. Seeking a web developer position where I can contribute to the development of cutting-edge web applications, collaborate with a talented team, and continuously enhance my technical abilities to drive the company's digital presence forward. 
-    </p>
-    <h2>Education</h2>
-    <ul>
-        <li>05/2021 Bachelor of Science: Digital Information Design/Interactive Media</li>
-        <li>Winthrop University － Rock Hill, SC
-        </li>
-            <ul>
-                <li>Front-end development, January 2021 - May 2021</li>
-                <li>Lymbic (LMBK) Intern</li>
-            </ul>
-        <li>05/2018 Associate of Arts: Design</li>
-        <li>Greenville Technical College － Greenville, SC 
-        </li>
-            <ul>
-                <li>Completed continuing education in Interactive Media</li>
-                <li>Dean's List Honoree Fall 2017</li>
-            </ul>
-        <li>06/2016 High School Diploma: General</li>
-        <li>Carolina Academy High School － Greenville, SC </li>
-        <ul>
-            <li>Ranked in Top 15% of class </li>
-            <li>3.6 GPA </li>
-            <li>Honor Roll Fall 2013- Spring 2015</li>
-        </ul>
-    </ul>
-   
-
-    
-
-    <h2>Work Experience</h2>
-    <ul>
-        <li>08/2022 - Current 	Sales Representative</li>   
-        <ul>
-            <li>Promote and sell State Farm insurance products, including auto, home, life, and health insurance.
-            </li>
-            <li>Provide excellent customer service by responding to customer inquiries and resolving issues promptly.
-            </li>
-            <li>Maintain accurate and up-to-date records of customer interactions and transactions.
-            </li>
-        </ul>     
-    </ul>
-    <ul>
-        <li>04/2021 to 12/2021 	Material Handler</li>   
-        <ul>
-            <li>DHL Supply Chain － Greer, SC </li>
-            <li>Operate powered equipment to move, locate, re-locate, stack, and count products</li>
-            <li>Put-away and identify products for shipment or stock. Ensure the exact number and type of products, ordered by the customer, are checked and loaded correctly. </li>
-            <li>Ensure products are free of damage and infestation, product code dates are properly recorded and products match customer requirements.</li>
-        </ul>     
-    </ul>
-    <ul>
-        <li>05/2016 to 08/2020 	Day Camp Counselor
-        </li>   
-        <ul>
-            <li>Caine Halter Family YMCA － Greenville, SC</li>
-            <li>Worked with parents and staff to improve student behavioral and learning 
-                issues with proactive approaches.</li>
-            <li>Set and enhanced program schedules to meet expected demands and 
-                enhance student learning opportunities.</li>
-            <li>Encourage youth to develop healthy habits in physical activities, 
-                devotions, team building exercises.</li>
-            <li>stablished and enforced modern educational standards to support 
-                student needs.</li>
-        </ul>     
-    </ul>
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML/CSS/JavaScript</li>
-        <li>User Experience</li>
-        <li>JQuery </li>
-        <li>Front-End Development
-        </li>
-        <li>Figma</li>
-        <li>Adobe Creative Suite</li>
-    </ul>
-    <ul>
-        <li>NodeJS</li>
-        <li>SQ</li>
-        <li>Sequencing</li>
-        <li>Add on</li>
-        <li>Add on</li>
-        <li>Add on</li>
-    </ul>
-    <h2>Certifications</h2>
-    <ul>
-        <li>add on</li>
-        <li>add on</li>
-    </ul>
-
-   
-    <footer>
-        <h1>&copy2024 Jaiquez</h1>
-    </footer>
+    <div class="container">
+        <div>
+            <div class=" d-flex flex-column gap-3">
+                <div class="d-flex flex-column flex-md-row justify-content-center gap-3 align-items-center">
+                    <img src="images/Mask group.png" id="photoofme" alt="">
+                    <div class=" d-flex flex-column align-items-center">
+                        <h1>Jaiquez <span style="font-weight: 700; color: #009999;"> Hagood</span> | <span id="webdevtitle" style=" color: #009999;">Web Developer</span></h1>
+                        <div class=" text-center contactinfo mt-3">
+                            <p> 5 Arturo Rd, Piedmont, SC 29673</p>
+                            <p>C: (864)-534-6774</p>
+                            <p>west00brook@gmail.com</p> 
+                            <a href="https://hagoodj98.github.io/PROJECTS/">View My Portfilio</a>
+                        </div>
+                    
+                    </div>
+                 
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            
+            <div>
+                <div class="headingbutton ">
+                    <button class="h2Animate" id="objective" style="width: 100%;">
+                        <div class="d-flex justify-content-between">
+                            <h2 >Objective</h2>
+                            <img src="images/Vector 16.svg" class="arrow" id="objectivebuttonup" alt="">
+                        </div>
+                    </button>
+                </div>
+                <div class="subheadingcontent" id="animateobjective">
+                    <div class="line"></div>
+                    <p id="animatecontent">Aspiring to leverage my expertise in front-end web development, my passion for creating user-centric digital experiences, and my strong problem-solving skills in a dynamic and innovative company. Seeking a web developer position where I can contribute to the development of cutting-edge web applications, collaborate with a talented team, and continuously enhance my technical abilities to drive the company's digital presence forward. 
+                    </p>
+                </div>
+                <div class="headingbutton">
+                    <button class="h2Animate" id="education" style="width: 100%;">
+                        <div class="d-flex justify-content-between">
+                            <h2  >Education</h2>
+                            <img src="images/Vector 16.svg" id="educationbuttonup" class="arrow" alt="">
+                        </div>
+                    </button>
+                </div>
+                <div class="subheadingcontent" id="animateeducation">
+                    <div class="line"></div>
+                    <h5 style="font-weight: bold;"> Bachelor of Science: Digital Information Design/Interactive Media  <span style="font-weight: lighter;"> | 05 / 2021</span></h5>  
+                    <h6>Winthrop University － Rock Hill, SC</h6>
+                    <ul>
+                        <li>Front-end development, January 2021 - May 2021</li>
+                        <li>Lymbic (LMBK) Intern</li>
+                    </ul>
+                    <h5 style="font-weight: bold;"> Associate of Arts: Design <span style="font-weight: lighter;"> | 05 / 2018</span></h5>
+                    <h6>Greenville Technical College － Greenville, SC </h6>
+                    <ul>
+                        <li>Completed continuing education in Interactive Media</li>
+                        <li>Dean's List Honoree Fall 2017</li>
+                    </ul>
+                    <h5 style="font-weight: bold;"> High School Diploma: General <span style="font-weight: lighter;">| 06 / 2016</span></h5>
+                    <h6>Carolina Academy High School － Greenville, SC </h6>
+                    <ul>
+                        <li>Ranked in Top 15% of class </li>
+                        <li>3.6 GPA </li>
+                        <li>Honor Roll Fall 2013- Spring 2015</li>
+                    </ul>
+                </div>
+                <div class="headingbutton">
+                    <button class="h2Animate" id="experience" style="width: 100%;">
+                        <div class="d-flex justify-content-between">
+                            <h2 >Work Experience</h2>
+                            <img src="images/Vector 16.svg" id="experiencebuttonup" class="arrow" alt="">
+                        </div>
+                    </button>
+                </div>
+                <div class="subheadingcontent" id="animateexperience">
+                    <div class="line"></div>
+                    <h5 style="font-weight: bold;"> Sales Representative <span style="font-weight: lighter;"> | 08/2022 - Current</span></h5>   
+                        <h6>Greg Rogers State Farm - Greenville, SC</h6>
+                    <ul>
+                        <li>Promote and sell State Farm insurance products, including auto, home, life, and health insurance.
+                        </li>
+                        <li>Provide excellent customer service by responding to customer inquiries and resolving issues promptly.
+                        </li>
+                        <li>Maintain accurate and up-to-date records of customer interactions and transactions.
+                        </li>
+                    </ul>     
+                    <h5 style="font-weight: bold;">Material Handler <span style="font-weight: lighter;" > | 04/2021 - 12/2021</span> </h5>   
+                    <h6>DHL Supply Chain － Greer, SC </h6>
+                    <ul>
+                        <li>Operate powered equipment to move, locate, re-locate, stack, and count products</li>
+                        <li>Put-away and identify products for shipment or stock. Ensure the exact number and type of products, ordered by the customer, are checked and loaded correctly. </li>
+                        <li>Ensure products are free of damage and infestation, product code dates are properly recorded and products match customer requirements.</li>
+                    </ul>
+                    <h5 style="font-weight: bold;"> Day Camp Counselor<span style="font-weight: lighter;"> | 05/2016 - 08/2020</span></h5>
+                    <h6>Caine Halter Family YMCA － Greenville, SC</h6>      
+                    <ul>
+                        <li>Worked with parents and staff to improve student behavioral and learning issues with proactive approaches.</li>
+                        <li>Set and enhanced program schedules to meet expected demands and enhance student learning opportunities.</li>
+                        <li>Encourage youth to develop healthy habits in physical activities, devotions, team building exercises.</li>
+                        <li>stablished and enforced modern educational standards to support student needs.</li>
+                    </ul>     
+                </div>
+                <div class="headingbutton">
+                    <button class="h2Animate" id="skills" style="width: 100%;">
+                        <div class="d-flex justify-content-between">
+                            <h2>Skills</h2>
+                            <img src="images/Vector 16.svg" id="skillsbuttonup" class="arrow" alt="">
+                        </div>
+                    </button>
+                </div>
+                
+                <div class="subheadingcontent" id="animateskills">
+                    <div class="line"></div>
+                    <div class="d-flex flex-column flex-sm-row skillscontent  justify-content-sm-around">
+                        <ul>
+                            <li>HTML/CSS/JavaScript</li>
+                            <li>User Experience</li>
+                            <li>JQuery </li>
+                            <li>Front-End Development
+                            </li>
+                            <li>Figma</li>
+                            <li>Adobe Creative Suite</li>
+                        </ul>
+                        <ul>
+                            <li>NodeJS</li>
+                            <li>SQ</li>
+                            <li>Sequencing</li>
+                            <li>Add on</li>
+                            <li>Add on</li>
+                            <li>Add on</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="headingbutton">
+                    <button class="h2Animate"  id="certification" style="width: 100%;">
+                        <div class="d-flex justify-content-between">
+                            <h2>Certifications</h2>
+                            <img src="images/Vector 16.svg" id="certificationbuttonup" class="arrow" alt="">
+                        </div>
+                    </button>
+                </div>
+                <div class="subheadingcontent" id="animatecertification">
+                    <div class="line"></div>
+                    <ul>
+                        <li>add on</li>
+                        <li>add on</li>
+                    </ul>
+                </div>
+                <div class="headingbutton">
+                    <button class="h2Animate"  id="hobbies" style="width: 100%;">
+                        <div class="d-flex justify-content-between">
+                            <h2>Hobbies</h2>
+                            <img src="images/Vector 16.svg" id="hobbiesbuttonup" class="arrow" alt="">
+                        </div>
+                    </button>
+                </div>
+                <div class="subheadingcontent" id="animatehobbies">
+                    <div class="line"></div>
+                    <ul>
+                        <li>add on</li>
+                        <li>add on</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="d-flex justify-content-center p-5">
+            <h1>&copy2024 Jaiquez</h1>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

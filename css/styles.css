@@ -67,6 +67,9 @@ a:hover{
     #webdevtitle{
         font-size: 13px;
     }
+  #logo{
+    display: none;
+  }
 .contactinfo{
     
     font-size: 13px;

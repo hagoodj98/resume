@@ -104,8 +104,7 @@ a:hover{
 
 @media(min-width: 768px) {
 #photoofme{
-    width: 350px;
-    height: 350px;
+   width: auto;
 }
 .contactinfo{
     max-width: 300px;
